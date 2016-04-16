@@ -1,0 +1,27 @@
+<div class="hub-serand-configs-list">
+    <table class="table table-bordered table-striped">
+        <colgroup>
+            <col class="col-xs-1">
+            <col class="col-xs-5">
+            <col class="col-xs-2">
+        </colgroup>
+        <tbody>
+        {#.}
+        <tr>
+            <td>
+                <h5 class="cname">{name}</h5>
+            </td>
+            <td>
+                <h5 class="cname">{value|js|s}</h5>
+            </td>
+            <td>
+                <div data-name="{name}">
+                    <button type="button" class="btn btn-info edit">Edit</button>
+                    <button type="button" class="btn btn-danger delete">Delete</button>
+                </div>
+            </td>
+        </tr>
+        {/.}
+        </tbody>
+    </table>
+</div>

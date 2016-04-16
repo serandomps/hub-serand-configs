@@ -1,0 +1,12 @@
+{
+    "name": "hub-serand-configs",
+    "description": "hub-serand-configs component",
+    "scripts": ["index.js"],
+    "styles": ["styles.css"],
+    "main": "index.js",
+    "templates": ["template.html", "list.html", "add.html", "details.html"],
+    "dependencies": {
+        "serandomps/dust": "master",
+        "serandomps/serand": "master"
+    }
+}
